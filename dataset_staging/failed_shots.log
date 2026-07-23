@@ -1,0 +1,7 @@
+--- shot 000003 ---
+[PLACEMENT_FAILED]
+Cause: The placement system could not find a spot inside the defined ground zones where this object fits fully in frame without overlapping another object, after the maximum number of attempts.
+Suggested fix: Increase layout.maxPlacementAttempts / layout.minGapMeters tolerance, reduce shotComposition.maxModelsPerShot, make the ground zone polygons in ground.json larger, or reduce that model's targetHeightMeters/scale in generation.config.json.
+
+(raw message: PLACEMENT_FAILED: could not find a non-overlapping, in-frame ground spot for className=FireTruck after 60 attempts. Footprint radius: 1.457)
+

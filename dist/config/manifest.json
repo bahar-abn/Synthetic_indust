@@ -1,0 +1,63 @@
+{
+  "generatedAt": "2026-07-18T05:08:19.614Z",
+  "classes": [
+    "Compressor",
+    "Crane",
+    "ElectroMotor",
+    "FanSanati",
+    "FireTruck",
+    "KapsoleAtashNeshani",
+    "PanelBargh",
+    "ShirAtashNeshani"
+  ],
+  "models": {
+    "Compressor": [
+      "models/Compressor/compressor_02/source/air_compressor_obj.glb",
+      "models/Compressor/compressor_03/source/air_compressor_obj.glb",
+      "models/Compressor/compressor_07/source/compressor07.glb"
+    ],
+    "Crane": [
+      "models/Crane/Crane_04/source/Rough-Terrain Crane.glb",
+      "models/Crane/Crane_05/source/smk-7m_mobile_crane.glb"
+    ],
+    "ElectroMotor": [
+      "models/ElectroMotor/electric-motor_07/electric_motor.glb",
+      "models/ElectroMotor/electric-motor_08/motor (1).glb"
+    ],
+    "FanSanati": [
+      "models/FanSanati/fan_01/source/fanmade-industrialfan.glb"
+    ],
+    "FireTruck": [
+      "models/FireTruck/FireTruck_01/source/Atego Fire Engine.obj.glb"
+    ],
+    "KapsoleAtashNeshani": [
+      "models/KapsoleAtashNeshani/fire-extinguisher_03/source/Fire_Ex.fbx",
+      "models/KapsoleAtashNeshani/fire-extinguisher_06/fire_extinguisher.glb",
+      "models/KapsoleAtashNeshani/fire-extinguisher_07/fire_extinguisher (1).glb"
+    ],
+    "PanelBargh": [
+      "models/PanelBargh/electric_box_02/source/container 1_21 -distribution box.glb",
+      "models/PanelBargh/electric_box_03/source/SkrzynkaElektryczna.fbx",
+      "models/PanelBargh/electric_box_03/source/SkrzynkaElektryczna.glb"
+    ],
+    "ShirAtashNeshani": [
+      "models/ShirAtashNeshani/fire_hydrant_04/fire_hydrant (1).glb",
+      "models/ShirAtashNeshani/fire_hydrant_05/fire_hydrant (2).glb",
+      "models/ShirAtashNeshani/fire_hydrant_06/fire_hydrant (6).glb",
+      "models/ShirAtashNeshani/fire_hydrant_07/fire_hydrant (3).glb",
+      "models/ShirAtashNeshani/fire_hydrant_08/fire_hydrant.glb"
+    ]
+  },
+  "backgrounds": [
+    "backgrounds/01.jpg",
+    "backgrounds/02.jpg",
+    "backgrounds/03.jpeg",
+    "backgrounds/04.jpg",
+    "backgrounds/05.jpg",
+    "backgrounds/06.webp",
+    "backgrounds/07.webp",
+    "backgrounds/08.jpg",
+    "backgrounds/09.jpeg",
+    "backgrounds/10.webp"
+  ]
+}

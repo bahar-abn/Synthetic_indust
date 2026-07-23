@@ -1,0 +1,47 @@
+{
+  "Crane": {
+    "realHeightMeters": 2.5,
+    "occupancyRatio": 0.35,
+    "sizeVariance": 0.15
+  },
+  "FireTruck": {
+    "realHeightMeters": 1.8,
+    "occupancyRatio": 0.25,
+    "sizeVariance": 0.10
+  },
+  "Compressor": {
+    "realHeightMeters": 1.0,
+    "occupancyRatio": 0.10,
+    "sizeVariance": 0.10
+  },
+  "ElectroMotor": {
+    "realHeightMeters": 0.6,
+    "occupancyRatio": 0.05,
+    "sizeVariance": 0.08
+  },
+  "FanSanati": {
+    "realHeightMeters": 0.8,
+    "occupancyRatio": 0.07,
+    "sizeVariance": 0.10
+  },
+  "KapsoleAtashNeshani": {
+    "realHeightMeters": 0.4,
+    "occupancyRatio": 0.03,
+    "sizeVariance": 0.08
+  },
+  "PanelBargh": {
+    "realHeightMeters": 0.5,
+    "occupancyRatio": 0.04,
+    "sizeVariance": 0.08
+  },
+  "ShirAtashNeshani": {
+    "realHeightMeters": 0.5,
+    "occupancyRatio": 0.03,
+    "sizeVariance": 0.08
+  },
+  "Hydrant": {
+    "realHeightMeters": 0.6,
+    "occupancyRatio": 0.03,
+    "sizeVariance": 0.08
+  }
+}

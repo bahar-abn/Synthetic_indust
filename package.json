@@ -1,0 +1,24 @@
+{
+  "name": "synthetic_indust",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "calibrate": "vite --open /calibrate.html",
+    "build": "vite build",
+    "preview": "vite preview",
+    "discover": "node scripts/discoverAssets.js",
+    "generate": "node scripts/generate.js",
+    "split": "node scripts/splitDataset.js",
+    "full-pipeline": "npm run discover && npm run build && npm run generate && npm run split"
+  },
+  "devDependencies": {
+    "vite": "^8.1.1"
+  },
+  "dependencies": {
+    "puppeteer": "^25.3.0",
+    "three": "^0.185.1",
+    "three-stdlib": "^2.30.4"
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "output": {
+    "width": 1280,
+    "height": 960
+  },
+
+  "totalImages": 100,
+
+  "split": {
+    "train": 0.7,
+    "val": 0.2,
+    "test": 0.1
+  },
+
+  "camera": {
+    "fov": 45,
+    "near": 0.1,
+    "far": 100,
+    "position": [0, 1.55, 6.2],
+    "lookAt": [0, 1.0, 0]
+  },
+
+  "shotComposition": {
+    "minModelsPerShot": 3,
+    "maxModelsPerShot": 5,
+
+    "exclusiveClasses": [
+        "Crane",
+        "FireTruck"
+    ],
+    "allowDuplicateClassInShot": false,
+    "classProbability": {
+      "Compressor": 1,
+      "Crane": 1,
+      "FireTruck": 1,
+      "ShirAtashNeshani": 1,
+      "ElectroMotor": 1,
+      "FanSanati": 1,
+      "PanelBargh": 1,
+      "KapsoleAtashNeshani": 1,
+      "Hydrant": 1
+    }
+  },
+
+  "layout": {
+    "groundY": 0,
+    "minGapMeters": 0.5,
+    "maxPlacementAttempts": 60,
+    "frameMarginRatio": 0.12
+  },
+
+  "randomization": {
+    "rotationYRangeDeg": [0, 360],
+    "rotationXRangeDeg": [0, 0],
+    "rotationZRangeDeg": [0, 0],
+    "occlusionVisibilityThreshold": 0.4,
+    "occlusionSampleCount": 220,
+    "maxPlanRetries": 15
+  },
+
+  "models": {
+    "Compressor": {
+      "scale": 1,
+      "mode": "original",
+      "metalness": 0.65,
+      "roughness": 0.45,
+      "colors": ["#F2A900", "#1F3A5F", "#C0272D", "#4A4A4A", "#E8E8E8"]
+    },
+    "Crane": {
+      "scale": 1,
+      "mode": "original",
+      "colors": ["#f5c542", "#ff8c00", "#333333"]
+    },
+    "FireTruck": {
+      "scale": 1,
+      "mode": "original",
+      "colors": ["#d60000", "#ffffff", "#333333"]
+    },
+    "ShirAtashNeshani": {
+      "scale": 1,
+      "mode": "original",
+      "metalness": 0.15,
+      "roughness": 0.35,
+      "colors": ["#C0272D", "#A31E22", "#8B0000"]
+    },
+    "ElectroMotor": {
+      "scale": 1,
+      "mode": "original",
+      "metalness": 0.7,
+      "roughness": 0.4,
+      "colors": ["#2E5B4B", "#4A5A6A", "#1F3A5F", "#5B6770"]
+    },
+    "FanSanati": {
+      "scale": 1,
+      "mode": "original",
+      "metalness": 0.6,
+      "roughness": 0.42,
+      "colors": ["#9DA1A6", "#F2A900", "#1F3A5F", "#4A4A4A"]
+    },
+    "PanelBargh": {
+      "scale": 1,
+      "mode": "original",
+      "colors": ["#B4B8AB", "#9DA1A6", "#E7E5DA", "#4A4A4A"]
+    },
+    "KapsoleAtashNeshani": {
+      "scale": 1,
+      "mode": "original",
+      "metalness": 0.15,
+      "roughness": 0.35,
+      "colors": ["#C0272D", "#A31E22"]
+    },
+    "Hydrant": {
+      "scale": 1,
+      "mode": "original",
+      "metalness": 0.15,
+      "roughness": 0.35,
+      "colors": ["#C0272D", "#A31E22"]
+    }
+  },
+
+  "materialOverridesByFile": {
+    "models/Crane/Crane_crain final.glb": {
+      "mode": "original",
+      "metalness": 0.55,
+      "roughness": 0.45,
+      "colors": ["#f5c542", "#ff8c00", "#333333"]
+    }
+  },
+
+  "_notes": {
+    "classSizeProfiles": "NEW: Class size profiles define real-world heights and occupancy ratios. System auto-normalizes all models using these values.",
+    "occupancyRatio": "How much space this class occupies relative to others. Used for shot-based adaptive scaling.",
+    "colors": "Approximate common industrial/safety colors. Compare against real reference photos and adjust if needed.",
+    "layout.minGapMeters": "Minimum empty gap enforced between two placed objects' footprints, in meters.",
+    "layout.maxPlacementAttempts": "How many random ground-zone points are tried per object before giving up."
+  }
+}
